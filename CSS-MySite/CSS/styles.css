@@ -1,0 +1,154 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Sono', sans-serif;
+  font-size: 100%;
+  /*google fonts: help for find some great font*/
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  /*myfont, defaut*/
+  font-size: 5.625rem;
+  /* dynamic size (16px = 100%) (1em =16px) (100%=1rem) */
+  /*rem: doesn't matter with parent's fonts' sizes*/
+  margin: 2.6rem auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+  /* double space*/
+}
+
+h2 {
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr{
+  border: dotted #EAF6F6 6PX;
+  border-bottom: none;
+  width:4%;
+  margin:100px,auto;
+}
+
+a{
+  color:#11999E;
+  font-family: 'Sono', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+  font-size:1.3rem;
+}
+
+/*hover: when your mouse move it on*/
+a:hover{
+  color: #30e3cb;
+}
+
+.hello-p{
+  width:50%;
+  margin:  100px auto 100px auto;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  /*float: wrap around the picture*/
+  /* clear: not wrap around the picture*/
+  margin-right: 30px;
+}
+
+.skills {
+  width: 50%;
+  margin:  100px auto 100px auto;
+}
+
+.skill-row {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  /*top right bottom left*/
+  text-align: left;
+  line-height: 2;
+}
+
+.divtop {
+  background-color: #DEF5E5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color:#66BFBF;
+  padding: 50px 0 25px;/*top left&right bottom*/
+}
+
+.contact-me{
+  width:40%;
+  margin:auto auto 50px auto;
+}
+
+/* Absolute: Postion an element based on its closest positioned ancstor postion*/
+/* Relative: Position an elemnt based on its current position without changing layout*/
+.topCould {
+  /*closet parent is divtop*/
+  position: absolute;
+  right: 680px;
+  top: 50px;
+}
+
+.bottomCould {
+  position: absolute;
+  bottom: 300px;
+  left: 680px;
+}
+
+/*https://css3buttongenerator.com/ use to buttom css previous*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Sono', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.8rem;
+  padding:20px 0; /*top&bottom left&right*/
+}
